@@ -21,7 +21,10 @@ export default function Closing() {
           Open for freelance, contract, and full-time opportunities.
         </p>
 
-        <a className="inline-block mt-8 px-6 py-3 bg-purple-600 rounded-xl hover:scale-105 transition">
+        <a
+          className="inline-block mt-8 px-6 py-3 bg-purple-600 rounded-xl hover:scale-105 transition cursor-pointer"
+          href="mailto:riffelrasool@gmail.com"
+        >
           Contact Me
         </a>
       </motion.div>
