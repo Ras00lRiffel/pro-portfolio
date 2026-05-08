@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import BackgroundGlow from "../components/BackgroundGlow";
+import ScrollIndicator from "../components/ScrollIndicator";
 
 export default function Hero() {
   return (
@@ -34,6 +35,7 @@ export default function Hero() {
             </a>
           </div>
         </motion.div>
+        <ScrollIndicator />
       </section>
     </>
   );

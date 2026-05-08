@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import SectionGlow from "../components/BackgroundGlow";
+import ScrollIndicator from "../components/ScrollIndicator";
 
 export default function Closing() {
   return (
@@ -24,6 +25,7 @@ export default function Closing() {
           Contact Me
         </a>
       </motion.div>
+      <ScrollIndicator />
     </section>
   );
 }

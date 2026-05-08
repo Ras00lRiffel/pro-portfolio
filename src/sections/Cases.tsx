@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import SectionGlow from "../components/BackgroundGlow";
+import ScrollIndicator from "../components/ScrollIndicator";
 
 const cases = [
   {
@@ -110,6 +111,7 @@ export default function Cases() {
           ))}
         </div>
       </div>
+      <ScrollIndicator />
     </section>
   );
 }
