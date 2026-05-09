@@ -4,7 +4,7 @@ import ScrollIndicator from "../components/ScrollIndicator";
 
 export default function Story() {
   return (
-    <section className="h-screen snap-start relative flex items-center justify-center px-6">
+    <section className="min-h-screen lg:h-screen snap-start relative flex items-center justify-center px-6">
       <SectionGlow />
 
       <motion.div

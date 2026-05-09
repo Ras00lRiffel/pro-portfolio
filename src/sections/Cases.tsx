@@ -37,7 +37,7 @@ export default function Cases() {
   return (
     <section
       id="cases"
-      className="h-screen snap-start relative overflow-hidden flex items-center justify-center px-6"
+      className="min-h-screen lg:h-screen snap-start relative overflow-hidden flex items-center justify-center px-6"
     >
       <SectionGlow />
 
@@ -56,7 +56,7 @@ export default function Cases() {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 gap-8 pb-24">
           {cases.map((project, i) => (
             <motion.div
               key={project.title}

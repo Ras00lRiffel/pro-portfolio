@@ -6,7 +6,7 @@ export default function Closing() {
   return (
     <section
       id="contact"
-      className="h-screen flex items-center justify-center relative px-6"
+      className="min-h-screen lg:h-screen flex items-center justify-center relative px-6"
     >
       <SectionGlow color="#a855f7" size={900} opacity={0.2} />
 

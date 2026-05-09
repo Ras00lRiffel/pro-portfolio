@@ -2,7 +2,7 @@ import SectionGlow from "../components/BackgroundGlow";
 import ScrollIndicator from "../components/ScrollIndicator";
 export default function Skills() {
   return (
-    <section className="h-screen flex items-center justify-center relative px-6 z-10">
+    <section className="min-h-screen lg:h-screen flex items-center justify-center relative px-6 z-10">
       <SectionGlow />
 
       <div className="max-w-5xl w-full text-center z-10">

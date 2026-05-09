@@ -5,7 +5,7 @@ import ScrollIndicator from "../components/ScrollIndicator";
 export default function Hero() {
   return (
     <>
-      <section className="h-screen flex items-center justify-center relative px-6">
+      <section className="min-h-screen lg:h-screen flex items-center justify-center relative px-6">
         <BackgroundGlow />
         <motion.div
           initial={{ opacity: 0, scale: 1.1 }}
